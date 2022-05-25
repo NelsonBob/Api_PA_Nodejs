@@ -1,0 +1,27 @@
+{
+  "name": "api-social",
+  "version": "1.0.0",
+  "description": "api du reseau social",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "server",
+    "http",
+    "api",
+    "rest"
+  ],
+  "author": "Bob Nelson",
+  "license": "ISC",
+  "dependencies": {
+    "async": "^3.2.3",
+    "async-waterfall": "^0.1.5",
+    "bcrypt": "^5.0.1",
+    "body-parser": "^1.20.0",
+    "express": "^4.18.1",
+    "jsonwebtoken": "^8.5.1",
+    "mysql2": "^2.3.3",
+    "sequelize": "^6.19.0"
+  }
+}
